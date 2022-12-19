@@ -1,0 +1,60 @@
+body {
+  background-image: linear-gradient(
+      rgba(56, 75, 161, 0.7),
+      rgba(56, 75, 161, 0.7)
+    ),
+    url("https://demo.7iquid.com/queak/wp-content/uploads/2020/03/ptt_contact.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+}
+.title-div {
+  background: transparent;
+  height: 400px;
+}
+.title-div a:hover {
+  transition: all 0.5s ease-in-out;
+  color: #279e64 !important;
+}
+.title-div h1 {
+  font-size: 70px;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+}
+.divider {
+  width: 30%;
+  border: 1px solid white;
+}
+.btn-send {
+  background-color: #ffb400;
+  border-radius: 40px;
+  transition: all 0.7s ease-in-out;
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn-send:hover {
+  background-color: #279e64;
+  color: #fff !important;
+}
+
+.message-form-div h3 {
+  color: #13287d;
+}
+.accordion-div h1 {
+  color: #13287d;
+  font-size: 50px;
+  font-weight: 700 !important;
+}
+
+.accordion-div small {
+  font-size: 18px;
+  font-weight: bold;
+}
+@media (max-width:576px){
+  .title-div h1{
+    font-size: 40px;
+  }
+}
+
+

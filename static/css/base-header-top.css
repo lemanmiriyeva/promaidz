@@ -1,0 +1,89 @@
+
+.icon-phone {
+  background-image: url("https://png.pngtree.com/png-vector/20191027/ourlarge/pngtree-telephone-glyph-icon-vector-png-image_1885949.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+header {
+  background-color: #fff;
+}
+
+.header-top {
+  color: #13287d;
+  border-bottom: 1px solid #eee;
+}
+
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+}
+
+.social-icons li a {
+  display: block;
+  font-size: 1.5em;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.social-icons li a i {
+  color: #13287d;
+  transition: all 0.2s ease-in;
+}
+
+.social-icons li a:hover i {
+  transform: scale(1.2);
+  color: #279e64 !important;
+}
+
+.social-icons li a:focus i,
+.social-icons li a:active i {
+  transition: none;
+  color: #0b161c;
+}
+.top-content{
+  font-size: 14px;
+}
+.top-content-div{
+  color: #7A7A7A;
+}
+@media (max-width:768px){
+  .top-content-div{
+    
+    justify-content: start !important;
+  }
+  .top-content{
+
+    font-size: 18px !important;
+  }
+  .top-content-div a{
+    margin-top: unset !important;
+  }
+  .top-content-div br{
+    display: none;
+  }
+  .social-icons{
+    margin-bottom: 10%;
+    width: 50% !important;;
+  }
+  .right-header-part{
+    width: 100%;
+    justify-content: center !important;
+  }
+}
+@media (max-width: 1024px) {
+  .content1 {
+    display: none;
+  }
+}

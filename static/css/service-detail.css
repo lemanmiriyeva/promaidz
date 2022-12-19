@@ -1,0 +1,117 @@
+body {
+  background-image: linear-gradient(
+      rgba(56, 75, 161, 0.7),
+      rgba(56, 75, 161, 0.7)
+    ),
+    url("https://demo.7iquid.com/queak/wp-content/uploads/2020/03/ptt_contact.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+}
+.title-div {
+  background: transparent;
+  height: 400px;
+}
+.title-div a:hover {
+  transition: all 0.5s ease-in-out;
+  color: #279e64 !important;
+}
+.title-div h1 {
+  font-size: 70px;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+}
+.divider {
+  width: 30%;
+  border: 1px solid white;
+}
+.btn-send {
+  background-color: #ffb400;
+  border-radius: 40px;
+  transition: all 0.7s ease-in-out;
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn-send:hover {
+  background-color: #279e64;
+  color: #fff !important;
+}
+
+.message-form-div h4 {
+  color: #13287d;
+}
+.service-detail h1 {
+  color: #13287d;
+  font-size: 50px;
+  font-weight: 700 !important;
+}
+.service-image{
+    width: 100%;
+    height: auto;
+
+}
+.service-image img{
+    object-fit: cover;
+}
+.message-form-div input,.message-form-div textarea{
+  border:1px solid rgb(228, 223, 223);
+  border-radius: 3px;
+  outline: none !important;
+}
+
+.message-form-div input:focus,.message-form-div textarea:focus{
+  border:1px solid #279e64;
+}
+.service-description{
+  font-size: 16px;
+  color: #7A7A7A;
+}
+
+
+.tab-cont button{
+    width: 100%;
+    background-color: inherit;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    outline: none;
+    border-radius: 3px;
+    border-width: 1px;
+    color: #83868c;
+    border-style: solid;
+    border-color: rgb(228, 223, 223);
+    transition: all .6s ease-in-out;
+}
+.tab-cont button:hover{
+    background-color: #279e64;
+    border-color: #279e64;
+    color: #fff;
+}
+
+.tab-cont .but.active{
+    border-color: #279e64;
+    background-color: #279e64;
+    color: #fff;
+}
+.tab-cont .but i{
+    font-size: 18px;
+}
+.tabs .hide {
+    display: none;
+}
+.tabs .show {
+    display: block;
+}
+@keyframes anime {
+    from{opacity: 0}
+    to{opacity: 1}
+}
+@media (max-width:576px){
+  .title-div h1{
+    font-size: 40px;
+  }
+}
+

@@ -1,0 +1,98 @@
+.service-type {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+}
+.service-type h4{
+  color: #13287d;
+}
+.img-service {
+  width: 100% !important;
+}
+.img-service img {
+  width: 100%;
+}
+.service-type-section p {
+  margin: auto;
+  color: #7A7A7A;
+}
+.service-type-text {
+  font-size: 18px;
+  width: 80%;
+}
+@media (max-width: 1024px) {
+  .btn-service-type {
+    width: 70% !important;
+  }
+}
+.list-item{
+  font-weight: 500;
+  color: #13287d;
+}
+.btn-service-type {
+  width: 30%;
+  color: #fff !important;
+  background-color: rgb(19, 19, 114);
+  border-radius: 50px;
+  transition: all 0.7s ease-in-out;
+}
+.btn-service-type:hover {
+  background-color: #ffb400;
+  color: #000 !important;
+}
+
+.type-title-icon {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background-color: #ffb400;
+  border: 3px solid #ffb400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.7s ease-in-out;
+}
+
+.service-type:hover .type-title-icon {
+  background-color: #13287d;
+  border: 10px solid #13287d;
+
+}
+
+.type-title-icon img {
+  width: 60px;
+  height:60px;
+}
+
+@media screen and (max-width: 576px) {
+  .service-card-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.service-type-section ul {
+  list-style-type: none;
+  list-style-image:url('../images/icons8-checkmark-48.png');
+  margin-left: 10px;
+}
+
+.service-type-section ul li {
+  margin-bottom: 12px;
+  margin-left: -10px;
+  display: flex;
+  align-items: center;
+}
+
+.service-type-section ul li::before {
+  color: transparent;
+  font-size: 1px;
+  content: " ";
+  margin-left: -1.3em;
+  margin-right: 15px;
+  padding: 10px;
+  background-color: orange;
+  -webkit-mask-image: url("../images/icons8-checkmark-48.png");
+  -webkit-mask-size: cover;
+}

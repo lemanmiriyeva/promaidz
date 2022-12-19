@@ -1,0 +1,77 @@
+body {
+  background-image:  linear-gradient(rgba(56, 75, 161, 0.7), rgba(56, 75, 161, 0.7)),url("https://demo.7iquid.com/queak/wp-content/uploads/2020/03/ptt_contact.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+}
+.title-div {
+  background: transparent;
+  height: 400px;
+}
+.title-div a:hover{
+  transition: all .5s ease-in-out;
+  color: #279e64 !important;
+}
+.title-div h1{
+  font-size: 80px;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+}
+.divider {
+  width: 30%;
+  border: 1px solid white;
+}
+.contact-form {
+  background-color: #fff;
+}
+.btn-send {
+  background-color: #ffb400;
+  border-radius: 40px;
+  transition: all 0.7s ease-in-out;
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn-send:hover {
+  background-color: #279e64;
+  color: #fff !important;
+}
+.contact-information h1 {
+  color: #13287d;
+  font-size: 45px;
+}
+.contact-form-div h2{
+  color: #13287d;
+}
+.contact-information small {
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact-form-div input,.contact-form-div textarea{
+  background-color: #fff;
+    border: 1px solid #dcdfe2;
+    color: #83868c;
+    outline: none;
+}
+.contact-form-div input:focus,.contact-form-div textarea:focus{
+    border: 1px solid #279e64;
+    box-shadow: 0 2px 9px 2px rgb(0 0 0 / 15%)
+}
+@media (max-width:576px){
+  .title-div h1{
+    font-size: 40px;
+  }
+}
+
+.contact-information i{
+  color: #279e64;
+  font-size: 30px;
+}
+.contact-information a{
+  font-size: 20px;
+  color: #13287d !important;
+}
+.contact-information a:hover{
+  color: #279e64 !important;
+  transition: all .7s ease-in-out;
+}

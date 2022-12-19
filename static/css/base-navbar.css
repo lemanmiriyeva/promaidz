@@ -1,0 +1,49 @@
+.navbar {
+  z-index: 1000 !important;
+}
+
+.scroll li a i {
+  color: #13287d !important;
+}
+
+.navbar-light .nav-link {
+  color: #13287d !important;
+  font-weight: 500 !important;
+}
+.navbar-nav > .active > a {
+  color: #279e64 !important;
+}
+.nav-item > a:hover {
+  color: #279e64 !important;
+}
+@media only screen and (min-width: 1200px) {
+  .nav-item > .nav-link {
+    padding: 5px 20px !important;
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-dark .nav-link {
+    color: #fff !important;
+  }
+
+}
+
+.navbar-scroll .nav-link {
+  color: #13287d !important;
+}
+.btn-quote {
+  background-color: #ffb400;
+  cursor: pointer;
+  border-radius: 40px;
+  border: none !important;
+  color: #13287d !important;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all .6s ease-in-out;
+}
+.btn-quote:hover {
+  background-color: #279e64;
+  color: #fff !important;
+}

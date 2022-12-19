@@ -1,0 +1,191 @@
+body {
+  background-image: linear-gradient(
+      rgba(56, 75, 161, 0.7),
+      rgba(56, 75, 161, 0.7)
+    ),
+    url("https://demo.7iquid.com/queak/wp-content/uploads/2020/03/ptt_contact.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+}
+.title-div {
+  background: transparent;
+  height: 400px;
+}
+.title-div a:hover {
+  transition: all 0.5s ease-in-out;
+  color: #279e64 !important;
+}
+.title-div h1 {
+  font-size: 70px;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+}
+.divider {
+  width: 30%;
+  border: 1px solid white;
+}
+.btn-post {
+  background-color: #ffb400;
+  border-radius: 40px;
+  transition: all 0.7s ease-in-out;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000 !important;
+}
+.btn-post:hover {
+  background-color: #13287d;
+  color: #fff !important;
+}
+
+.message-form-div h4 {
+  color: #13287d;
+}
+.blog-detail h1 {
+  color: #13287d;
+  font-size: 50px;
+  font-weight: 600 !important;
+}
+.blog-image {
+  width: 100%;
+  height: auto;
+}
+.blog-image img {
+  object-fit: cover;
+}
+.blog-description {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+.popular-tag-div button {
+  width: max-content;
+  background-color: white;
+  color: #6d6e6e;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.7s ease-in-out;
+}
+.popular-tag-div button:hover {
+  width: max-content;
+  background-color: #279e64;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.subscribe-div input {
+  border: 1px solid rgb(228, 223, 223);
+  border-radius: 3px;
+  outline: none !important;
+}
+
+.subscribe-div input:focus {
+  border: 1px solid #279e64;
+}
+.subscribe-div,
+.popular-tag-div {
+  background-color: rgba(0, 0, 0, 8%);
+}
+
+.tab-cont button {
+  width: 100%;
+  background-color: inherit;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  outline: none;
+  border-radius: 3px;
+  border-width: 1px;
+  color: #83868c;
+  border-style: solid;
+  border-color: rgb(228, 223, 223);
+  transition: all 0.6s ease-in-out;
+}
+.tab-cont button:hover {
+  background-color: #279e64;
+  border-color: #279e64;
+  color: #fff;
+}
+
+.tab-cont .but.active {
+  border-color: #279e64;
+  background-color: #279e64;
+  color: #fff;
+}
+.tab-cont .but i {
+  font-size: 18px;
+}
+.tabs .hide {
+  display: none;
+}
+.tabs .show {
+  display: block;
+}
+
+.comment-div {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 8%);
+  position: relative;
+}
+.comment-div h5,
+.comments-section h2 {
+  color: #13287d;
+  font-weight: 600 !important;
+}
+.comment-div h5 {
+  margin-bottom: 0 !important;
+}
+.comment-div small {
+  font-style: italic;
+}
+.comment-div p {
+  color: #83868c;
+  font-size: 15px;
+}
+.comment-div .image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.add-comment-form-div h2 {
+  color: #13287d;
+  font-weight: 600 !important;
+}
+.add-comment-form-div input,
+.add-comment-form-div textarea {
+  background-color: #fff;
+  border: 1px solid #dcdfe2;
+  color: #83868c;
+  outline: none;
+}
+.add-comment-form-div input:focus,
+.add-comment-form-div textarea:focus {
+  border: 1px solid #279e64;
+  box-shadow: 0 2px 9px 2px rgb(0 0 0 / 15%);
+}
+@media (max-width: 576px) {
+  .title-div h1 {
+    font-size: 40px;
+  }
+}
+@keyframes anime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .title-div h1 {
+    font-size: 40px;
+  }
+}
+

@@ -1,0 +1,90 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-weight: 900;
+}
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: unset !important;
+  text-decoration: none;
+}
+.top-content {
+  margin-left: 10%;
+}
+.form-control,
+.form-select{
+  background-color: #eeeff2!important;
+  border-color: #eeeff2!important;
+}
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 2px 9px 2px rgb(0 0 0 / 15%);
+}
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: #83868c !important;
+  font-size: 14px;
+}
+select{
+  font-size: 14px !important;
+  color: #83868c !important;
+}
+@keyframes trin {
+  from {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  20%,
+  32%,
+  44%,
+  56%,
+  68% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  23%,
+  35%,
+  47%,
+  59%,
+  71% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  26%,
+  38%,
+  50%,
+  62%,
+  74% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  29%,
+  41%,
+  53%,
+  65%,
+  77% {
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.trin-trin {
+  animation-name: trin;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

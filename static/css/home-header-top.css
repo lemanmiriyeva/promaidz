@@ -1,0 +1,48 @@
+.icon-phone {
+  background-image: url("https://png.pngtree.com/png-vector/20191027/ourlarge/pngtree-telephone-glyph-icon-vector-png-image_1885949.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+header {
+  background-color: #13287d;
+}
+.btn-quote {
+  background-color: #fff;
+  color: #000 !important;
+  border-radius: 50px;
+  transition: all .4s ease-in-out;
+}
+.header-top {
+  color: #fff;
+  border-bottom: 1px solid rgba(225,227,230,.2);
+}
+@media (max-width: 1024px) {
+  .content1 {
+    display: none;
+  }
+  .btn-quote {
+    width: 80%;
+  }
+  .right-header-part{
+    justify-content: end !important;
+  }
+}
+@media (max-width:768px){
+  .top-content-div{
+    justify-content: start !important;
+  }
+  .left{
+    margin-bottom: 10%;
+  }
+  
+  .top-content{
+    display: none;
+  }
+  .btn-quote{
+    width: 70%;
+  }
+}
